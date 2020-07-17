@@ -9,7 +9,7 @@ package edu.tekwill.java;
 
 import java.util.Scanner;
 
-public class ClassEx {
+public class ClassEx37 {
 
     public static void main(String[] args)
     {
@@ -17,8 +17,8 @@ public class ClassEx {
 
         System.out.println("Enter the number of minutes:");
         int myInt = myScanner.nextInt();
-        int numYrs = (myInt/525600);
-        int numDs = (myInt/1440);
+        int numYrs = myInt/525600;
+        int numDs = myInt/1440;
         System.out.println("The Number of Years is:  " + numYrs);
         System.out.println("The Number of Days is:  " + numDs);
     }

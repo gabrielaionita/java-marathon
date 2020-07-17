@@ -1,3 +1,10 @@
+/***
+ * Exercitiul de comparare
+ * Compara 3 numere
+ * @17iulie2020
+ * @author Ionita Gabriela
+ */
+
 package edu.tekwill.java;
 
 import java.util.Scanner;
@@ -13,21 +20,17 @@ public class DemoMain {
         System.out.println("Enter second number:");
         int secondNumber = scanner.nextInt();
 
+        System.out.println("Enter third number:");
+        int thirdNumber = scanner.nextInt();
+
         int biggestNumber;
 
-        if (firstNumber > secondNumber) {
-            //System.out.println("First number is bigger");
-            biggestNumber = firstNumber;.
-        }
 
-        else {
-            System.out.println("Second number is bigger");
-        }
+        biggestNumber = firstNumber > secondNumber
+                ? (firstNumber > thirdNumber ? firstNumber : thirdNumber)
+                : (secondNumber > thirdNumber ? secondNumber: thirdNumber);
 
-        boolean isFirstNumberBiggerThanSeconfOne = false;
-        isFirstNumberBiggerThanSeconfOne = firstNumber > secondNumber ? true : false;
-
-        System.out.println("Is first number bigger than the second one?" +isFirstNumberBiggerThanSeconfOne);
+        System.out.println("The biggest number is: " + biggestNumber);
 
     }
 
