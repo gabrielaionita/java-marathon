@@ -1,4 +1,5 @@
 /***
+ * Tema pentru acasa:
  * Exercitiul nr 3.8
  * Sum, difference, product, average
  * @17iulie2020

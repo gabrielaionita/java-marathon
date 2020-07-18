@@ -1,11 +1,11 @@
 /***Probleme in clasa Colectii de valori/ tablou unidimensional
  * denumirea problemei: Array 5.1
  * @since 17july2020
- * @author
+ * @author profesor
  *
  */
 
-package edu.tekwill.java;
+package edu.temainclasa17;
 
 public class InClasa {
 

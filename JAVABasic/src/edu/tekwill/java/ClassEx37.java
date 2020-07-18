@@ -1,4 +1,4 @@
-/***
+/*** Tema pentru acasa:
  * Exercitiul nr 3.7
  * Convert Minutes to nr of years and days
  * @17iulie2020

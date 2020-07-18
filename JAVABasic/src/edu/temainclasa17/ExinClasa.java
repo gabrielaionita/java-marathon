@@ -5,7 +5,7 @@
  */
 
 
-package edu.tekwill.java;
+package edu.temainclasa17;
 
 import java.util.Scanner;
 

@@ -1,11 +1,11 @@
 /***Probleme in clasa
  * @since 17july2020
- * @author
+ * @author profesor
  *
  */
 
 
-package edu.tekwill.java;
+package edu.temainclasa17;
 
 import java.util.Scanner;
 

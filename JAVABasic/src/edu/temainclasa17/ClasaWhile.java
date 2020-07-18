@@ -1,10 +1,10 @@
 /***Probleme in clasa while,do-while statement 4.10
  * @since 17july2020
- * @author
+ * @author profesor
  *
  */
 
-package edu.tekwill.java;
+package edu.temainclasa17;
 
 import java.util.Scanner;
 
