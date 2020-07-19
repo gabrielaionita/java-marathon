@@ -13,9 +13,16 @@ public class Problema534 {
 
     public static void main(String[] args){
 
+        int [] numbers = {1, 4, 5, 10, -5};
+        int searchedValue = 10;
 
-        int intArray[] = {0, 1, 2};
-
+        for(int index = 0; index < numbers.length; index++) {
+            if (numbers[index] == searchedValue) {
+                //pozitia
+                System.out.println("Found searched value at " + index + " position");
+                break;
+            }
+        }
 
 
 

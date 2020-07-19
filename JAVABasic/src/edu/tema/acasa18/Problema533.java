@@ -18,7 +18,6 @@ public class Problema533 {
 
 
         for( int num : intArray) {
-
             if (num == checkValue) {
                 hasValue = true;
                 System.out.println("The array contains this value");
