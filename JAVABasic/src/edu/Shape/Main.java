@@ -1,4 +1,4 @@
-package edu.Shape;
+/*package edu.Shape;
 
 public class Main {
 
@@ -9,3 +9,4 @@ public class Main {
 
     }
 }
+*/
