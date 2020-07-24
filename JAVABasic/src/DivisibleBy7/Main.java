@@ -1,7 +1,5 @@
 package DivisibleBy7;
 
-import Hexazecimal.HexazecimalChecker;
-
 import java.util.Scanner;
 
 public class Main {

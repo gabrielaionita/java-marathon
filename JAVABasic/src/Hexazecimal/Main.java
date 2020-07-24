@@ -1,3 +1,7 @@
+/**Problema in clasa
+ *
+ */
+
 package Hexazecimal;
 
 public class Main {
