@@ -2,14 +2,15 @@ package DivisibleBy7;
 
 public class Divisible {
 
+    public static int counter;
     int minimum;
     int maximum;
-    int counter;
 
 
-public  int Divisible(int minimum, int maximum ){
 
-    counter = 0;
+public static int Divisible(int minimum, int maximum ){
+
+    //counter = 0;
     for( int i = minimum; i <= maximum; i++)
         if(i % 7 == 0)
             counter++;
